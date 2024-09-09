@@ -46,13 +46,13 @@ void loop() {
 The implementation avoid busy waiting techniques such as using while, for, sleep, or delay.
 
 ### How to Use
-1. Clone the Repository:
-       ```bash
-   void loop() {
-       usart_tx();
-       usart_rx();
-   }
-   ```
+1.Clone the Repository:
+
+```bash
+git clone https://github.com/your-username/usart-full-duplex.git
+cd usart-full-duplex
+```
+
 2. Compile and Upload to the Device:
 * Use your preferred IDE or toolchain to compile the code.
 * Upload the compiled binary to your microcontroller or device.
